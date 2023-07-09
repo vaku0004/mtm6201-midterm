@@ -754,11 +754,30 @@ h1 span:first-child {
   max-width: 100%;
 }
 
+.about-photo img {
+  max-width: 100%;
+  max-height: 100%;
+}
 
 
 @media screen and (min-width: 559.9px) and (max-width: 699.99px) {
   body {
     background-color: rgb(229, 63, 63) !important;
+  }
+
+  .about-photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .step1,
+  .step2 {
+    padding: 1rem;
+  }
+
+  .about-photo img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
