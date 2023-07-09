@@ -756,7 +756,19 @@ h1 span:first-child {
   body {
     background-color: rgb(229, 63, 63) !important;
   }
-
-
 }
+
+
+@media screen and (max-width: 385px) {
+  .products-1 h2 span:first-child {
+    font-size: 2rem;
+  }
+  
+  .products-1 h2 span:last-child {
+    font-size: 3rem;
+    margin-top: -1rem;
+    max-width: 100%;
+  }
+}
+
 }
