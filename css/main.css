@@ -747,6 +747,7 @@ h1 span:first-child {
 .products-1 h2 span:last-child {
   font-size: 4rem;
   margin-top: -1rem;
+  max-width: 100%;
 }
 
 
