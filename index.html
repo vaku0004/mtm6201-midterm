@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&family=Public+Sans:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <img src="images/logobread3.svg" alt="logo" width="220" height="100" viewBox="0 0 50 70">
+          </div>
+          <ul class="navigation">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+          </ul>
+        </nav>
+    </header>
+   <div class="banner">
+        <h1><span>FIND YOUR</span>
+            <span>BREAD</span>
+        </h1> 
+        <!--<img src="images/big-banner.jpg" alt="banner" class="banner-img">  -->
+        <!-- FINAL
+        <img src="images/small-banner.jpg"
+       srcset="images/small-banner.jpg 700w,
+               images/big-banner.jpg 1800w"
+       sizes="(max-width: 700px) 100vw, 
+              (max-width: 900px) 100vw, 1800px"
+       alt="Banner" class="banner-img">
+       -->
+       <picture>
+        <source media="(max-width: 599px)" srcset="images/small-banner.jpg">
+        <source media="(min-width: 700px)" srcset="images/big-banner.jpg">
+        <img src="images/small-banner.jpg" alt="Banner" class="banner-img">
+      </picture>
+      
+        <!--
+       <img src="images/small-banner.jpg" 
+     srcset="images/small-banner.jpg 700w, 
+             images/big-banner.jpg 1800w"
+     sizes="(max-width: 700px) 760px, 100vw"
+     alt="Баннер" class="banner-img">-->
+   </div>
+   <div class="block1">
+      <div class="block1-1">
+        <!--<img src="images/spikelet.png" alt="spikelet photo"> -->
+        <img src="images/spikelet.png"
+        srcset="images/spikelet-sm.png 860w,
+                images/spikelet.png 1800w"
+        sizes="(max-width: 700px) 90vw, 1800px"
+        alt="spikelet photo">
+      </div>
+      <div class="block1-2">
+        <div class="content1">
+        <h2>
+          <span>OUR</span> 
+          <span>PRODUCTS</span>
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reprehenderit impedit, accusamus eos quos nihil aut nisi vero illum doloremque soluta enim labore earum sapiente voluptas? Incidunt unde nemo reprehenderit?</p>
+        <button type="submit">Learn more</button>
+        </div>
+      </div>
+   </div>
+   <div class="block2">
+      <div class="block2-1">
+        <div class="content2">
+          <h2>
+            <span>ABOUT </span>
+            <span>US</span>
+          </h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestias quasi sunt! Et libero vitae pariatur eius quaerat ratione consectetur? Quidem, minus accusantium. Nulla corrupti reiciendis quia iste eum consequatur. Expedita reprehenderit impedit, accusamus eos quos nihil aut nisi vero illum doloremque soluta enim labore earum sapiente voluptas? Incidunt unde nemo reprehenderit?</p>
+          <button type="submit">Learn more</button>
+        </div>
+      </div>
+        <div class="block2-2">
+          <!--<img src="images/baked-bread.png" alt="baked bread photo">-->
+          <img src="images/baked-bread.png"
+          srcset="images/baked-bread.png 1800w,
+                  images/baked-bread-sm.png 860w"
+          sizes="(max-width: 700px) 90vw, 1800px" alt="baked bread photo">
+        </div>
+   </div>
+   <footer> &copy;Copyright Viktoria 2023</footer>
+</body>
+</html>
