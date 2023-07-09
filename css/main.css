@@ -47,6 +47,7 @@ nav {
     font-family: 'Public Sans', sans-serif;
     font-size: 1rem;
     color: var(--grey-color);
+    line-height: 1.5rem;
   }
 
   footer{
@@ -77,10 +78,12 @@ nav {
     height: 2.3vw;
     border: 1.5px solid var(--grey-color);
     margin-top: 2rem;
+    color: var(--grey-color);
   }
 
   button:hover {
     background-color: var(--white-color);
+    color: var(--brown-color);
   }
 
 /*HOME PAGE*/
@@ -303,6 +306,7 @@ h3 {
   font-family: 'Noto Serif Display', serif;
   font-size: 2.5vw;
   color: var(--grey-color);
+  font-weight: bold;
 }
 
 .about {
@@ -320,6 +324,7 @@ h3 {
   margin-top: 3rem;
 }
 
+
 .step1,
 .step2 {
   background-color: var(--beige-color);
@@ -334,6 +339,7 @@ h3 {
   max-width: 100%;
 }
 
+
 .about-photo {
   max-width: 100%;
 }
@@ -342,7 +348,11 @@ h3 {
   max-width: 100%;
   height: auto;
 }
-
+/*
+#step2-img {
+  max-height: 700px;
+}
+*/
 .about-content {
   text-align: center;
   padding-right: 4rem;
