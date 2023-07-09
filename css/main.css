@@ -740,6 +740,15 @@ h1 span:first-child {
   order: 2;
 }
 
+.products-1 h2 span:first-child {
+  font-size: 2vw;
+}
+
+.products-1 h2 span:last-child {
+  font-size: 4vw;
+  margin-top: -1rem;
+}
+
 
 
 @media screen and (min-width: 559.9px) and (max-width: 699.99px) {
