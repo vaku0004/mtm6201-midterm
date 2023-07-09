@@ -741,11 +741,11 @@ h1 span:first-child {
 }
 
 .products-1 h2 span:first-child {
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 .products-1 h2 span:last-child {
-  font-size: 4vw;
+  font-size: 4rem;
   margin-top: -1rem;
 }
 
