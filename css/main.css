@@ -55,7 +55,20 @@ nav {
     padding: 4rem;
     color: var(--grey-color);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  } 
+
+  footer a:visited {
+    color: var(--brown-color);
   }
+
+  footer a:link {
+    color: var(--grey-color); 
+  }
+
+
 
   button {
     background-color: transparent;
