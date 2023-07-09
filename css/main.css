@@ -124,6 +124,7 @@ h2 span:last-child {
 .block1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: -1rem;
   }
 
 
@@ -154,6 +155,7 @@ h2 span:last-child {
     padding-right: 2rem;
     display: grid;
     grid-template-columns: 50% 50%;
+    padding-bottom: 3rem;
   }
 
 /*A picture with bread on the board*/
@@ -428,6 +430,7 @@ button {
 .block1 {
   display: grid;
   grid-template-columns: 50% 50%;
+  margin-top: 3rem;
 }
 
 
@@ -699,6 +702,7 @@ h1 span:first-child {
 .block1 {
   display: flex;
   flex-direction: column;
+  margin-top: 1rem;
 }
 
 .block1-2 {
