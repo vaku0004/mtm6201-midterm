@@ -13,6 +13,10 @@
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap" rel="stylesheet" />
 	</head>
 	<body>
+		<ul class="skip-links">
+			<li><a href="#nav">Skip to main nav</a></li>
+			<li><a href="#main">Skip to main content</a></li>
+		</ul>
 		<header>
 			<nav>
 				<div class="logo" role="banner">
@@ -35,7 +39,7 @@
 			</p>
 			<button type="submit" onclick="location.href='#step-1'" role="button">Learn more</button>
 			<!--<img src="images/field2.jpg" alt="field photo">-->
-			<img src="images/field2.jpg" srcset="images/field-small.jpg 700w, images/field.jpg 800w, images/field2.jpg 1800w" sizes="(max-width: 900px) 90vw, 1800px" alt="field photo" />
+			<img src="images/field2.jpg" srcset="images/field-small.jpg 700w, images/field.jpg 800w, images/field2.jpg 1800w" sizes="(max-width: 900px) 90vw, 1800px" alt="field photo" itemprop="image"/>
 		</div>
 		<div class="step1">
 			<div class="about-content">
@@ -49,13 +53,13 @@
 			</div>
 			<div class="about-photo">
 				<!--<img src="images/about1.jpg" alt="about image 1">-->
-				<img src="images/about1.jpg" srcset="images/about1-small.jpg 700w, images/about1.jpg 1800w" sizes="(max-width: 700px) 90vw, 1800px" alt="about image 1" />
+				<img src="images/about1.jpg" srcset="images/about1-small.jpg 700w, images/about1.jpg 1800w" sizes="(max-width: 700px) 90vw, 1800px" alt="about image 1" itemprop="image"/>
 			</div>
 		</div>
 		<div class="step2">
 			<div class="about-photo">
 				<!--<img src="images/about2.jpg" alt="about image 1">-->
-				<img src="images/about2.jpg" srcset="images/about2-small.jpg 700w, images/about2.jpg 1800w" sizes="(max-width: 700px) 90vw, 1800px" alt="about image 2" id="step2-img" />
+				<img src="images/about2.jpg" srcset="images/about2-small.jpg 700w, images/about2.jpg 1800w" sizes="(max-width: 700px) 90vw, 1800px" alt="about image 2" id="step2-img" itemprop="image"/>
 			</div>
 			<div class="about-content2">
 				<h3 id="step-2">STEP 2</h3>
@@ -79,13 +83,21 @@
 			</div>
 			<div class="about-photo">
 				<!--<img src="images/about3.jpg" alt="about image 1">-->
-				<img src="images/about3.jpg" srcset="images/about3-small.jpg 700w, images/about3.jpg 1800w" sizes="(max-width: 700px) 90vw, 1800px" alt="about image 3" />
+				<img src="images/about3.jpg" srcset="images/about3-small.jpg 700w, images/about3.jpg 1800w" sizes="(max-width: 700px) 90vw, 1800px" alt="about image 3" itemprop="image"/>
 			</div>
 		</div>
 		<div class="about" id="step-4">
 			<h3>Our address</h3>
-			<p>001001 Bright street 1, Amazingtown, Dreamland</p>
+			<address itemscope itemtype="https://schema.org/PostalAddress">
+				<p itemprop="streetAddress">001001 Bright street 1</p>
+				<p itemprop="addressLocality">Amazingtown</p>
+				<p itemprop="addressRegion">Dreamland</p>
+			  </address>
+			  <div itemscope itemtype="https://schema.org/OpeningHoursSpecification">
+				<p><strong>Monday to Friday:</strong> <span itemprop="opens">7:00 a.m.</span> to <span itemprop="closes">7:00 p.m.</span></p>
+				<p><strong>Saturday & Sunday:</strong> <span itemprop="opens">9:00 a.m.</span> to <span itemprop="closes">5:00 p.m.</span></p>
+			  </div>
 		</div>
-		<footer role="contentinfo"><a href="#top">Skip to Top</a> &copy;Copyright Viktoria 2023</footer>
+		<footer role="contentinfo"><a href="#top">Skip to Top</a> &copy;Copyright Bakkery company 2023</footer>
 	</body>
 </html>

@@ -10,6 +10,10 @@
 		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&family=Public+Sans:wght@100;200;300;400;500;600&display=swap" rel="stylesheet" />
 	</head>
 	<body>
+		<ul class="skip-links">
+			<li><a href="#nav">Skip to main nav</a></li>
+			<li><a href="#main">Skip to main content</a></li>
+		</ul>
 		<header>
 			<nav>
 				<div class="logo" role="banner">
@@ -42,7 +46,7 @@
 			<picture>
 				<source media="(max-width: 599px)" srcset="images/small-banner.jpg" />
 				<source media="(min-width: 700px)" srcset="images/big-banner.jpg" />
-				<img src="images/small-banner.jpg" alt="Banner" class="banner-img" />
+				<img src="images/small-banner.jpg" alt="Banner" class="banner-img" itemprop="image"/>
 			</picture>
 
 			<!--
@@ -55,7 +59,7 @@
 		<div class="block1">
 			<div class="block1-1">
 				<!--<img src="images/spikelet.png" alt="spikelet photo"> -->
-				<img src="images/spikelet.png" srcset="images/spikelet-sm.png 860w, images/spikelet.png 1800w" sizes="(max-width: 700px) 90vw, 1800px" alt="spikelet photo" />
+				<img src="images/spikelet.png" srcset="images/spikelet-sm.png 860w, images/spikelet.png 1800w" sizes="(max-width: 700px) 90vw, 1800px" alt="spikelet photo" itemprop="image"/>
 			</div>
 			<div class="block1-2">
 				<div class="content1">
@@ -91,9 +95,9 @@
 			</div>
 			<div class="block2-2">
 				<!--<img src="images/baked-bread.png" alt="baked bread photo">-->
-				<img src="images/baked-bread.png" srcset="images/baked-bread.png 1800w, images/baked-bread-sm.png 860w" sizes="(max-width: 700px) 90vw, 1800px" alt="baked bread photo" />
+				<img src="images/baked-bread.png" srcset="images/baked-bread.png 1800w, images/baked-bread-sm.png 860w" sizes="(max-width: 700px) 90vw, 1800px" alt="baked bread photo" itemprop="image"/>
 			</div>
 		</div>
-		<footer role="contentinfo"><a href="#top">Skip to Top</a> &copy;Copyright Viktoria 2023</footer>
+		<footer role="contentinfo"><a href="#top">Skip to Top</a> &copy;Copyright Bakkery company 2023</footer>
 	</body>
 </html>
