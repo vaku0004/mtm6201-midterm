@@ -10,7 +10,7 @@
 body {
 	background-color: var(--main-color);
 }
-
+/*skip links are hidden*/
 .skip-links {
 	list-style: none;
 	margin: 0;
@@ -67,7 +67,7 @@ p {
 	font-family: 'Public Sans', sans-serif;
 	font-size: 1rem;
 	color: var(--grey-color);
-	line-height: 1.3rem;
+	line-height: 1.3rem;/*required for accessibility*/
 }
 
 footer {
@@ -84,7 +84,7 @@ footer {
 footer a:visited {
 	color: var(--brown-color);
 }
-
+/*skip link in the footer*/
 footer a:link {
 	color: var(--grey-color);
 }
@@ -228,7 +228,7 @@ section {
 }
 
 section>div {
-	flex-basis: calc(33.33% - 2rem);
+	flex-basis: calc(33.33% - 2rem); /*this code is needed so that there are 3 products along the length of the page*/
 	position: relative;
 	text-align: center;
 	justify-content: center;
@@ -360,12 +360,12 @@ h3 {
 	max-width: 100%;
 }
 
-
+/*Medium screen size*/
 @media screen and (min-width: 701px) and (max-width: 1184px) {
 
 
 	section>div {
-		flex-basis: calc(50% - 1rem);
+		flex-basis: calc(50% - 1rem);/*this code is needed so that there are 2 products along the length of the page*/
 	}
 
 	.navigation a {
@@ -482,7 +482,7 @@ h3 {
 		width: 120%;
 		height: auto;
 		margin-left: 0;
-		transform: rotate(-20deg);
+		transform: rotate(-20deg); /*this code rotates the picture*/
 		padding: 1rem;
 	}
 
@@ -567,12 +567,12 @@ h3 {
 
 
 }
-
+/*Mobile size*/
 @media screen and (max-width: 700px) {
 
 
 	section>div {
-		flex-basis: calc(100% - 1rem);
+		flex-basis: calc(100% - 1rem); /*this code is needed so that there is 1 product along the length of the page*/
 		justify-content: center;
 		margin: auto;
 	}
@@ -766,7 +766,7 @@ h3 {
 	}
 
 }
-
+/*Medium screen size problem area, a separate code is required for page alignment*/
 @media screen and (min-width: 559.9px) and (max-width: 699.99px) {
 
 
@@ -790,8 +790,9 @@ h3 {
 	}
 }
 
-
+/*Mobile version for narrow smartphones*/
 @media screen and (max-width: 385px) {
+	/*these codes are needed to change the size of the first and last words in the h2 header*/
 	.products-1 h2 span:first-child {
 		font-size: 2rem;
 	}

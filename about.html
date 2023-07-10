@@ -24,7 +24,7 @@
 						<image xlink:href="images/logobread3.svg" width="100%" height="100%" />
 					</svg>
 				</div>
-				<ul class="navigation" role="navigation">
+				<ul class="navigation" role="navigation" id="nav">
 					<li><a href="index.html">HOME</a></li>
 					<li><a href="products.html">PRODUCTS</a></li>
 					<li><a href="about.html">ABOUT</a></li>
@@ -33,10 +33,11 @@
 		</header>
 		<div class="about">
 			<h2>ABOUT</h2>
-			<p>
+			<p id="main">
 				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati fuga numquam asperiores omnis quasi officiis reprehenderit veritatis esse, cupiditate ipsam similique dolor deserunt ipsa tenetur libero! Reprehenderit
 				nulla voluptatem accusantium!
 			</p>
+			<!--on this page, buttons are used to move from one part of the content to another-->
 			<button type="submit" onclick="location.href='#step-1'" role="button">Learn more</button>
 			<img src="images/field2.jpg" 
 			    srcset="images/field-small.jpg 700w, 
@@ -99,17 +100,17 @@
 				alt="about image 3" itemprop="image"/>
 			</div>
 		</div>
-		<div class="about" id="step-4">
+		<div class="about" id="step-4"> <!--a block with an address has been added here for the consistency of the page-->
 			<h3>Our address</h3>
-			<address itemscope itemtype="https://schema.org/PostalAddress">
+			<address itemscope itemtype="https://schema.org/PostalAddress"> <!--added schema-->
 				<p itemprop="streetAddress">001001 Bright street 1</p>
 				<p itemprop="addressLocality">Amazingtown</p>
 				<p itemprop="addressRegion">Dreamland</p>
-			  </address>
-			  <div itemscope itemtype="https://schema.org/OpeningHoursSpecification">
-				<p><strong>Monday to Friday:</strong> <span itemprop="opens">7:00 a.m.</span> to <span itemprop="closes">7:00 p.m.</span></p>
-				<p><strong>Saturday & Sunday:</strong> <span itemprop="opens">9:00 a.m.</span> to <span itemprop="closes">5:00 p.m.</span></p>
-			  </div>
+			</address>
+			<div itemscope itemtype="https://schema.org/OpeningHoursSpecification">
+				<p>Monday to Friday:<span itemprop="opens">7:00 a.m.</span> to <span itemprop="closes">7:00 p.m.</span></p>
+				<p>Saturday & Sunday:<span itemprop="opens">9:00 a.m.</span> to <span itemprop="closes">5:00 p.m.</span></p>
+			</div>
 		</div>
 		<footer role="contentinfo"><a href="#top">Skip to Top</a> &copy;Copyright Bakkery company 2023</footer>
 	</body>

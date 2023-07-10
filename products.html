@@ -21,13 +21,14 @@
 						<image xlink:href="images/logobread3.svg" width="100%" height="100%" />
 					</svg>
 				</div>
-				<ul class="navigation" role="navigation">
+				<ul class="navigation" role="navigation" id="nav">
 					<li><a href="index.html">HOME</a></li>
 					<li><a href="products.html">PRODUCTS</a></li>
 					<li><a href="about.html">ABOUT</a></li>
 				</ul>
 			</nav>
 		</header>
+		<!--h2 in a separate div element for the possibility of styling in css-->
 		<div class="products-1">
 			<h2>
 				<span>OUR</span>
@@ -36,7 +37,8 @@
 		</div>
 		<section>
 			<h3>Bread</h3>
-			<div class="container">
+			<div class="container" id="main"> 
+				<!--there are 2 types of images used for the mobile version and the desktop version-->
 				<img src="images/product1.jpg" 
 				srcset="images/product1-small.jpg 900w, 
 				images/product1.jpg 1800w" 
