@@ -65,7 +65,7 @@ section h3 {
     font-family: 'Public Sans', sans-serif;
     font-size: 1rem;
     color: var(--grey-color);
-    line-height: 1.5rem;
+    line-height: 1.3rem;
   }
 
   footer{
@@ -86,8 +86,6 @@ section h3 {
   footer a:link {
     color: var(--grey-color); 
   }
-
-
 
   button,
   .button-link {
@@ -216,24 +214,6 @@ h2 span:last-child {
 
 
 /*Products page*/
-/*
-section {
-  display: grid;
-  grid-template-columns: repeat(3, auto-fit); 
-  grid-template-rows: repeat(2, auto-fit); 
-  grid-gap: 1rem;
-}
-
-div {
-  max-width: 20rem;
-}
-
-div img {
-  width: 100%;
-  height: auto;
-}
-*/
-
 
 section {
   display: flex;
@@ -256,13 +236,6 @@ section > div > img {
   max-width: 100%;
 }
 
-/*
-section > div > span {
-  position: absolute;
-  display: block;
-  top: 80%;
-  left: 50%;
-}*/
 
 .description {
   position: absolute;
@@ -367,11 +340,7 @@ h3 {
   max-width: 100%;
   height: auto;
 }
-/*
-#step2-img {
-  max-height: 700px;
-}
-*/
+
 .about-content {
   text-align: center;
   padding-right: 4rem;
@@ -390,10 +359,8 @@ h3 {
 
 
 @media screen and (min-width: 701px) and (max-width: 1184px) {
-  body {
-    background-color: rgb(22, 22, 22);
-  }
 
+  
   section > div {
     flex-basis: calc(50% - 1rem);
   }
@@ -480,7 +447,6 @@ button {
 .block1-1 img{ /*spikelet white picture*/
   max-width: 180%;
   max-height: 100%;
-  background-color: aqua;
 }
 
 
@@ -495,7 +461,6 @@ button {
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
-  background-color: rgb(223, 192, 53);
 }
 
 .block2{
@@ -599,9 +564,7 @@ h3 {
 }
 
 @media screen and (max-width: 700px) {
-  body {
-    background-color: rgb(53, 41, 41);
-  }
+
 
 
   section > div {
@@ -613,12 +576,7 @@ h3 {
   .navigation a {
     font-size: 1rem;
   }
-/*
-  .logo img {
-    width: 10rem; 
-    height: auto; 
-  }
-  */
+
 
   nav {
     display: flex;
@@ -805,9 +763,7 @@ h1 span:first-child {
 
 
 @media screen and (min-width: 559.9px) and (max-width: 699.99px) {
-  body {
-    background-color: rgb(229, 63, 63) !important;
-  }
+
 
   .about-photo {
     display: flex;
@@ -841,5 +797,6 @@ h1 span:first-child {
     max-width: 100%;
   }
 }
+
 
 }
