@@ -24,7 +24,9 @@ nav {
     padding-bottom: 1.5rem;
 }
 
-
+section h3 {
+  display: none;
+}
 .navigation {
     display: flex;
     justify-content: flex-end;
@@ -71,7 +73,8 @@ nav {
 
 
 
-  button {
+  button,
+  .button-link {
     background-color: transparent;
     border-radius: 2rem;
     width: 10vw;
