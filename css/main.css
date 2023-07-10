@@ -584,6 +584,7 @@ h3 {
     background-color: rgb(53, 41, 41);
   }
 
+
   section > div {
     flex-basis: calc(100% - 1rem);
     justify-content: center;
@@ -593,11 +594,12 @@ h3 {
   .navigation a {
     font-size: 1rem;
   }
-
+/*
   .logo img {
     width: 10rem; 
     height: auto; 
   }
+  */
 
   nav {
     display: flex;
@@ -622,13 +624,12 @@ h3 {
 }
 
 .logo {
-  background-color: rgb(255, 255, 255);
   justify-content: center;
   padding: 0;
   margin: auto;
   position: absolute;
   width: 100%;
-  top: 0%;
+  top: -1em;
   align-content: center;
   display: flex;
 }
@@ -802,6 +803,10 @@ h1 span:first-child {
   .about-photo img {
     max-width: 100%;
     height: auto;
+  }
+
+  .logo {
+    top: 0.1em;
   }
 }
 
