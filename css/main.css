@@ -175,6 +175,7 @@ h2 span:last-child {
 	align-items: center;
 	justify-content: center;
 	height: 100%;
+	transition: transform 1s ease;
 }
 
 .content1 {
@@ -203,11 +204,22 @@ h2 span:last-child {
 	padding: 1rem;
 }
 
+
 .block2-1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: transform 1s ease;
 }
+
+.block1-2:hover {
+	transform: scale(1.1);
+  }
+
+.block2-1:hover {
+	transform: scale(1.05);
+}
+  
 
 .content2 {
 	text-align: center;
@@ -234,6 +246,13 @@ section>div {
 	justify-content: center;
 	display: flex;
 }
+
+/*this code enlarges the picture and helps the user to see the image better*/
+section div:hover {
+	transform: scale(1.1);
+	font-weight: 700; 
+}
+
 
 section>div>img {
 	max-width: 100%;
@@ -334,6 +353,17 @@ h3 {
 	max-width: 100%;
 }
 
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+footer svg {
+	display: block;
+	margin-bottom: -5rem;
+	margin-top: -1rem;
+}
 
 .about-photo {
 	max-width: 100%;
