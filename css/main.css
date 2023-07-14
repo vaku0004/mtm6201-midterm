@@ -24,6 +24,7 @@ body {
 	font-weight: bold;
 }
 
+/*this code makes the skip link visible and active when the tab button is pressed*/
 .skip-links a:focus {
 	top: 0;
 }
@@ -86,7 +87,7 @@ footer {
 	flex-direction: column;
 	gap: 1rem;
 }
-
+/*this code changes the color of the clicked link*/
 footer a:visited {
 	color: var(--brown-color);
 }
@@ -120,7 +121,7 @@ h1 {
 .banner span {
 	position: absolute;
 }
-
+/*in this code, I have highlighted separately the first and last word in the h1 for styling*/
 h1 span:last-child {
 	color: var(--brown-color);
 	top: 35%;
@@ -168,9 +169,8 @@ h2 span:last-child {
 	margin-top: -1rem;
 }
 
-
+/*white spikelet picture*/
 .block1-1 img {
-	/*spikelet white picture*/
 	max-width: 180%;
 	max-height: 100%;
 }
@@ -206,7 +206,7 @@ h2 span:last-child {
 	width: 120%;
 	height: auto;
 	margin-left: -5rem;
-	transform: rotate(-20deg);
+	transform: rotate(-20deg); /*this code rotates the picture*/
 	padding: 1rem;
 }
 
@@ -215,9 +215,10 @@ h2 span:last-child {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transition: transform 1s ease;
+	transition: transform 1s ease;/*this code makes the animation smoother*/
 }
 
+/*this code enlarges the text block on hover*/
 .block1-2:hover {
 	transform: scale(1.1);
   }
@@ -489,9 +490,8 @@ footer svg {
 		margin-top: 3rem;
 	}
 
-
+    /*white spikelet picture*/
 	.block1-1 img {
-		/*spikelet white picture*/
 		max-width: 180%;
 		max-height: 100%;
 	}
@@ -525,7 +525,7 @@ footer svg {
 		width: 120%;
 		height: auto;
 		margin-left: 0;
-		transform: rotate(-20deg); /*this code rotates the picture*/
+		transform: rotate(-20deg); 
 		padding: 1rem;
 	}
 
@@ -541,7 +541,7 @@ footer svg {
 		padding-right: 1em;
 	}
 
-	/*ABOUT PAGE*/
+	/*ABOUT PAGE IS HERE*/
 
 	h3 {
 		font-family: 'Noto Serif Display', serif;
